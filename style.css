@@ -77,26 +77,27 @@ body{
 
 /* item-category */
 
-.item-card{
-    display: flex;
-    align-items: center;
-    width:550px;
-    height: auto;
-    background-color: #fff;
+.items{
+    width:60%;
+    height:60%;
     border-radius: 6px;
     list-style: none;
     padding-left:0;
+    overflow-y: scroll;
 }
-.img-item.card{
+.item{
     display: flex;
     align-items: center;
-    margin:2px 20px;
+    background-color: #fff;
+    padding:6px;
+    margin-bottom: 10px;
 }
-.img-item.card img{
-    width: auto;
-    height: 40px;
+.item-img{
+    width: 50px;
+    height: 50px;
 }
 .img-desc{
-    
+    margin-left: 6px;
+    font-size: 16px;
 }
 
